@@ -136,7 +136,7 @@ const HoneyCard: React.FC<HoneyCardProps> = ({
           {/* Art Box */}
           <div className="card-art-box">
             <img 
-              src={`/images/${honey.image}`} 
+              src={`${import.meta.env.BASE_URL}images/${honey.image}`} 
               alt={honey.name} 
               className="card-art-img"
               onError={(e) => {
